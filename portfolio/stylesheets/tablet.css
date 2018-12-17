@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/* CSS Document */
+* {
+margin: 0;
+padding: 0;
+}
+html {
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+}
+
+body, html {
+	height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/forside-baggrund.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.workbg {
+  background-image: url("../img/work-background.png");
+	  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+	bottom: 30px;
+	left: 30px;
+	position: absolute;
+	transition-duration: 1s;
+	filter: brightness(0%);
+}
+.logo:hover {
+	transform: scale(1.2);
+	transition-duration: 1;
+}
+
+.nav {
+	right: 230px;
+	position: absolute;
+	border-right: 2px solid black;
+	width: 140px;
+
+}
+.navdiv {
+	position: absolute;
+	border-right: 2px solid black;
+	right: 230px;
+	font-size: 2em;
+}
+.worklogo {
+	padding-right: 20px;
+	padding-top: 30px;
+	float: right;
+}
+
+.forside-tekst {
+	top: 30px;
+	left: 30px;
+	font-size: 2em;
+	position: absolute;
+	padding-top: 0;
+}
+.frontpageli {
+	text-align: left;
+	border-bottom: none;
+	transition-duration: 1s;
+}
+.frontpageli:hover {
+	color: #8bd100;
+	transition-duration: 1s;
+}
+.workli {
+	transition-duration: 1s;
+	text-align: left;
+	border-bottom: none;
+}
+.workli:hover {
+	color: #00a3dc;
+}
+.worklogo {
+	width: 200px;
+}
+.navdivwork {
+	list-style: none;
+	font-size: 2em;
+	width: 140px;
+}
+.semester {
+	position: absolute;
+	right: 5%;
+	top: 250px;
+	transition-duration: 1s;
+}
+.semester:hover {
+	color: #00a3dc;
+	transition-duration: 1s;
+}
+.progressbg {
+	  background-image: url("../img/progress.background.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+.progresstekst {
+	top: 30px;
+	left: 30px;
+	font-size: 2em;
+	position: absolute;
+	padding-top: 0;
+	width: 500px;
+}
+.navdivprogress {
+	list-style: none;
+	font-size: 2em;
+	width: 140px;
+}
+.progressli {
+	transition-duration: 1s;
+	text-align: left;
+	border-bottom: none;
+}
+.progressli:hover {
+	transition-duration: 1s;
+	color: #d69b01;
+}
+u:hover{
+	color: #d69b01;
+	transition-duration: 1s;
+}
+u {
+	transition-duration: 1s;
+}
+.progresslogo {
+	margin-right: -17px;
+}
