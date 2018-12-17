@@ -12,6 +12,7 @@ html {
 
 body, html {
 	height: 100%;
+	width: 100%;
 }
 
 .bg {
@@ -111,6 +112,7 @@ body, html {
 }
 .progressbg {
 	  background-image: url("../img/progress.background.png");
+	width: 100%;
 
   /* Full height */
   height: 100%; 
@@ -127,7 +129,7 @@ body, html {
 	font-size: 2em;
 	position: absolute;
 	padding-top: 0;
-	width: 500px;
+	width: 550px;
 }
 .navdivprogress {
 	list-style: none;
@@ -152,4 +154,16 @@ u {
 }
 .progresslogo {
 	margin-right: -17px;
+}
+.contactbg {
+	width: 100%;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+		
 }

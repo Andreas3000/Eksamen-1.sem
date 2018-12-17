@@ -139,3 +139,29 @@ a:visited {
 	border-bottom: 1px solid black;
 	text-align: center;
 }
+form {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+label {
+    display:block;
+    margin-top:20px;
+}
+textarea {
+	width: 300px;
+	height: 150px;
+	padding-top: 5px;
+	font-family: "Lato"
+}
+.nameemail {
+	width: 150px;
+	height: 30px;
+}
+.submitbutton {
+	text-align: center;
+}
+input {
+	font-family: "Lato"
+}
