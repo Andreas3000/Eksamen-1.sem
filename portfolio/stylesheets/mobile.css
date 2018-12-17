@@ -63,7 +63,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 }
-.semester {
+.semester1 {
 	font-size: 1.5em;
 	padding-top: 20px;
 	width: 160px;
@@ -148,6 +148,7 @@ form {
 label {
     display:block;
     margin-top:20px;
+	font-family: "Lato";
 }
 textarea {
 	width: 300px;
@@ -164,4 +165,53 @@ textarea {
 }
 input {
 	font-family: "Lato"
+}
+.semester1text {
+	color: #cdcdcd;
+}
+.semester1bg {
+  background-image: url("../img/mobil-baggrund.png");
+	  /* Full height */
+  height: 135%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+	
+}
+.droem {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.indhold {
+	padding-top: 20px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.indhold p {
+	font-size: 1.5em;
+	width: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.vejrappikon {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+.sweetbotikon {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	
 }

@@ -100,13 +100,13 @@ body, html {
 	font-size: 2em;
 	width: 140px;
 }
-.semester {
+.semester1 {
 	position: absolute;
 	right: 5%;
 	top: 250px;
 	transition-duration: 1s;
 }
-.semester:hover {
+.semester1:hover {
 	color: #00a3dc;
 	transition-duration: 1s;
 }
@@ -156,6 +156,7 @@ u {
 	margin-right: -17px;
 }
 .contactbg {
+	background-image: url("../img/contact-background.jpg");
 	width: 100%;
 
   /* Full height */
@@ -166,4 +167,72 @@ u {
   background-repeat: no-repeat;
   background-size: cover;
 		
+}
+textarea {
+	width: 500px;
+	height: 300px;
+}
+.contactform {
+	width: 600px;
+}
+form {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.submitbutton {
+	width: 50px;
+	margin-left: 225px;
+	margin-right: 225px;
+}
+.contactli {
+	transition-duration: 1s;
+}
+.contactli:hover {
+	transition-duration: 1s;
+	color: #00368f
+}
+.contact-text {
+	font-size: 2em;
+	padding-top: 325px;
+}
+.semester1bg {
+  background-image: url("../img/1semester-background.png");
+	  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+	
+}
+.indhold {
+	width: 90%;
+	float: left;
+	margin-left: 30px;
+	padding-top: 50px;
+	display: inline;
+	
+}
+.sweetbotdiv {
+	width: 350px;
+	float: right;
+	margin-right: 5%;
+}
+.droemdiv {
+	width: 350px;
+	float: left;
+	padding-right: 300px;
+}
+.vejrappdiv {
+	width: 350px;
+	float: left;
+}
+.vejrappikon {
+	padding-top: 0;
+}
+.sweetbotikon {
+	padding-top: 0;
+	height: 189px;
 }
