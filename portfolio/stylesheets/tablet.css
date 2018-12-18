@@ -50,25 +50,35 @@ body, html {
 }
 
 .nav {
-	right: 230px;
+	top: 30px;
+	right: 275px;
 	position: absolute;
-	border-right: 2px solid black;
-	width: 140px;
+	border-bottom: 2px solid black;
+	width: 505px;
 
 }
 .navdiv {
 	position: absolute;
-	border-right: 2px solid black;
 	right: 230px;
 	font-size: 2em;
 }
 .worklogo {
 	padding-right: 20px;
-	padding-top: 30px;
+	padding-top: 3px;
 	float: right;
+}
+ul {
+	list-style: none;
+	display: inline-block;
+}
+li {
+	display: inline;
+	text-align: center;
+	padding-right:10px;
 }
 
 .forside-tekst {
+	width: 350px;
 	top: 30px;
 	left: 30px;
 	font-size: 2em;
@@ -98,7 +108,10 @@ body, html {
 .navdivwork {
 	list-style: none;
 	font-size: 2em;
-	width: 140px;
+	width: 505px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 0;
 }
 .semester1 {
 	position: absolute;
@@ -153,7 +166,6 @@ u {
 	transition-duration: 1s;
 }
 .progresslogo {
-	margin-right: -17px;
 }
 .contactbg {
 	background-image: url("../img/contact-background.jpg");
@@ -170,7 +182,7 @@ u {
 }
 textarea {
 	width: 500px;
-	height: 300px;
+	height: 250px;
 }
 .contactform {
 	width: 600px;
@@ -190,10 +202,6 @@ form {
 .contactli:hover {
 	transition-duration: 1s;
 	color: #00368f
-}
-.contact-text {
-	font-size: 2em;
-	padding-top: 325px;
 }
 .semester1bg {
   background-image: url("../img/1semester-background.png");
@@ -235,4 +243,22 @@ form {
 .sweetbotikon {
 	padding-top: 0;
 	height: 189px;
+}
+.contactpage {
+	padding-right: 0;
+}
+.navdivfrontpage {
+	list-style: none;
+	font-size: 2em;
+	width: 505px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 0;
+	right: 0;
+}
+.contactbutton {
+	padding-right: 0;
+}
+.navfrontpage {
+	right: 0;
 }
