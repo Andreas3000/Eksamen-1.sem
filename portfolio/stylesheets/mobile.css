@@ -10,6 +10,7 @@ body, html {
 }
 html {
 	font-family: 'Lato', sans-serif;
+	background-color: #606060;
 }
 .bg {
 	background-image: url("../img/mobil-baggrund.png");
@@ -22,16 +23,14 @@ html {
   background-size: cover;
 }
 .progressbg {
-  background-image: url("../img/mobil-baggrund.png");
-	  /* Full height */
+	background-image: url("../img/mobil-baggrund.png");
+  /* Full height */
   height: 100%; 
-	
+
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  overflow: scroll;
-
 }
 .logo {
 	padding-top: 10px;
@@ -71,7 +70,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .workbg {
 	background-image: url("../img/mobil-baggrund.png");
@@ -280,5 +279,189 @@ input {
 }
 .vejrapptext {
 	width: 350px;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+.droembg {
+	background-color: #606060;
+	height: 100%;
+	width: 100%;
+}
+.olddroem1 {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.olddroem2 {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newdroem1 {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newdroem2 {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newdroem1div {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newdroem2div {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.olddroem {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newdroem {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+.droemindhold {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.olddroemtext {
+	width: 350px;
+	text-align: center;
+}
+.droemtext {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.oldsweet1 {
+	width: 350px;
+	height: 173px;
+}
+.oldsweet1div {
+	width: 350px;
+	height: 210px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.oldsweettext {
+	text-align: center;
+}
+.newsweet1 {
+	width: 350px;
+	height: 173px;
+}
+.newsweettext {
+	text-align: center;
+}
+.newsweet1div {
+	width: 350px;
+	height: 173px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sweettext {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow1 {
+	padding-top: 25px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow1title {
+	text-align: center;
+}
+.flow2 {
+	padding-top: 25px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow2title {
+	text-align: center;
+}
+.flow3 {
+	padding-top: 25px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow3title {
+	text-align: center;
+}
+.flow4 {
+	padding-top: 25px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow4title {
+	text-align: center;
+}
+.links {
+	padding-top: 25px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.links p{
+	border-bottom: 1px solid black;
+	width: 125px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow1links {
+	width: 125px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+.flow2links {
+	width: 125px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow3links {
+	width: 125px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flow4links {
+	width: 125px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vejrappbg {
+	background-image: url("../img/mobil-baggrund.png");
+	  /* Full height */
+  height: 135%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("vejrappstylesheet.css");
 /* CSS Document */
 * {
 margin: 0;
@@ -90,7 +91,7 @@ li {
 	transition-duration: 1s;
 }
 .frontpageli:hover {
-	color: #8bd100;
+	color: #00c000;
 	transition-duration: 1s;
 }
 .workli {
@@ -117,14 +118,14 @@ li {
 	right: 5%;
 	top: 250px;
 	transition-duration: 1s;
-	padding-bottom: 0;
+	margin-bottom: 0;
 }
 .semester1:hover {
 	color: #00a3dc;
 	transition-duration: 1s;
 }
 .progressbg {
-	  background-image: url("../img/progress.background.png");
+	background-image: url("../img/progress.background.png");
 	width: 100%;
 
   /* Full height */
@@ -186,6 +187,7 @@ textarea {
 }
 .contactform {
 	width: 600px;
+	padding-top:70px;
 }
 form {
 	margin-right: 0;
@@ -204,16 +206,9 @@ form {
 	color: #00368f
 }
 .semester1bg {
-  background-image: url("../img/1semester-background.png");
-	  /* Full height */
+  background-color: #606060;
+  background-image: none;
   height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	
-	
 }
 .indhold {
 	width: 850px;
@@ -307,14 +302,170 @@ form {
 	height: auto;
 }
 .oldvejrapp1:hover {
-	transform: scale(1.5);
+	transform: scale(1.3);
 }
 .oldvejrapp2:hover {
-	transform: scale(1.5);
+	transform: scale(1.3);
+}
+.newvejrapp1 {
+	height: 202.35px;
 }
 .newvejrapp1:hover {
-	transform: scale(1.5);
+	transform: scale(1.3);
 }
 .newvejrapp2:hover {
-	transform: scale(1.5);
+	transform: scale(1.3);
+}
+.oldvejrapp1 {
+	transition-duration: 1s;
+}
+.oldvejrapp2 {
+	transition-duration: 1s;
+}
+.newvejrapp1 {
+	transition-duration: 1s;
+}
+.newvejrapp2 {
+	transition-duration: 1s;
+}
+.olddroem {
+	float: right;
+	width: 400px;
+	margin-left: -10px;
+}
+.droemindhold {
+	width: 850px;
+	padding-top: 100px;
+	margin-left: 0;
+	margin-right: 0
+}
+.newdroem {
+	float: left;
+	width: 400px;
+	padding-top: 0;
+	
+}
+.olddroem1 {
+	transition-duration: 1s;
+	height: 208px;
+	width: 350px;
+}
+.olddroem2 {
+	transition-duration: 1s;
+	height: 208px;
+	width: 350px;
+}
+.newdroem1 {
+	transition-duration: 1s;
+}
+.newdroem2 {
+	transition-duration: 1s;
+}
+.droemtext {
+	position: absolute;
+	right: 75px;
+	top: 150px;
+	font-size: 1.5em;
+}
+.olddroem1:hover {
+	transition-duration: 1s;
+	transform: scale(1.3)
+}
+.olddroem2:hover {
+	transition-duration: 1s;
+	transform: scale(1.3)
+}
+.newdroem1:hover {
+	transition-duration: 1s;
+	transform: scale(1.3)
+}
+.newdroem2:hover {
+	transition-duration: 1s;
+	transform: scale(1.3)
+}
+.newdroemtext {
+	text-align: center;
+	width: 350px;
+}
+.olddroemtext {
+	text-align: center;
+	width: 350px;
+}
+.sweetbg {
+	height: 100%;
+	width: auto;
+}
+.sweetindhold {
+	width: 850px;
+	height: 300px;
+	padding-left: 20px;
+	padding-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.oldsweet1div {
+	float: right;
+	width: 400px;
+}
+.newsweet1div {
+	float: left;
+	width: 400px;
+}
+.newsweettext {
+	width: 350px;
+}
+.oldsweettext {
+	width: 350px;
+}
+.sweettext {
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	font-size: 1.5em;
+}
+.newsweet1 {
+	transition-duration: 1s;
+}
+.newsweet1:hover {
+	transition-duratiom: 1s;
+	transform: scale(1.3);
+}
+.oldsweet1 {
+	transition-duration: 1s;
+}
+.oldsweet1:hover {
+	transition-duratiom: 1s;
+	transform: scale(1.3);
+}
+.progressindhold {
+	width: 1250px;
+	height: 550px;
+}
+.flow1, .flow2, .flow3, .flow4, .links {
+	float: left;
+	width: 225px;
+	padding-top: 100px;
+	padding-left: 25px;
+}
+.links {
+	padding-top: 0;
+}
+.progressli {
+	transition-duration: 1s;
+	text-align: left;
+	border-bottom: none;
+}
+.progressli:hover {
+	transition-duration: 1s;
+	color: #fdb900;
+}
+.links a:hover {
+	color: #fdb900;
+	transition-duration: 1s;
+}
+.links a {
+	transition-duration: 1s;
+}
+.vejrappbg {
+	height:578px;
 }
