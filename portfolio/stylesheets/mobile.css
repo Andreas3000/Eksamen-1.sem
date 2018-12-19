@@ -7,7 +7,6 @@ margin: 0;
 padding: 0;
 }
 body, html {
-	height: 1000px;
 }
 html {
 	font-family: 'Lato', sans-serif;
@@ -41,11 +40,12 @@ html {
 }
 
 .forside-tekst {
-	width: 300px;
+	width: 220px;
 	font-size: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .navdiv {
 	padding-top: 20px;
@@ -71,6 +71,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .workbg {
 	background-image: url("../img/mobil-baggrund.png");
@@ -162,6 +163,7 @@ textarea {
 }
 .submitbutton {
 	text-align: center;
+	padding-bottom: 20px;
 }
 input {
 	font-family: "Lato"
@@ -222,4 +224,61 @@ input {
 	width: 160px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.vejrappbg {
+	background-color: #606060;
+	width: 100%;
+	height: 100%;
+}
+.vejrappbg img{
+	width: 350px;
+}
+.oldvejrapp {
+	width: 100%;
+	padding-top: 20px;
+}
+.oldvejrapp1div {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.oldvejrapp2div {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.oldapptext {
+	text-align: center;
+}
+.newvejrapp {
+	width: 100%;
+	padding-top: 20px;
+}
+.newvejrapp1div {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newvejrapp2div {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newvejrapp2 {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.newvejrapp p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.vejrapptext {
+	width: 350px;
+	float: right;
 }

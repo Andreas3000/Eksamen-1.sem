@@ -7,7 +7,6 @@ padding: 0;
 }
 html {
 	font-family: 'Lato', sans-serif;
-	height: 100%;
 }
 
 body, html {
@@ -118,6 +117,7 @@ li {
 	right: 5%;
 	top: 250px;
 	transition-duration: 1s;
+	padding-bottom: 0;
 }
 .semester1:hover {
 	color: #00a3dc;
@@ -216,26 +216,38 @@ form {
 	
 }
 .indhold {
-	width: 90%;
+	width: 850px;
+	height: auto;
+	padding-top: 100px;
 	float: left;
-	margin-left: 30px;
-	padding-top: 50px;
-	display: inline;
+	padding-left: 65px;
 	
 }
 .sweetbotdiv {
 	width: 350px;
-	float: right;
-	margin-right: 5%;
+	padding-top: 10px;
+	transition-duration: 1s;
+}
+.sweetbotdiv:hover {
+	transform: scale(1.1);
+	transition-duration: 1;
 }
 .droemdiv {
 	width: 350px;
-	float: left;
-	padding-right: 300px;
+	float: right;
+	transition-duration: 1s;
+}
+.droemdiv:hover {
+	transform: scale(1.1);
+	transition-duration: 1;
 }
 .vejrappdiv {
 	width: 350px;
-	float: left;
+	transition-duration: 1s;
+}
+.vejrappdiv:hover {
+	transform: scale(1.1);
+	transition-duration: 1;
 }
 .vejrappikon {
 	padding-top: 0;
@@ -261,4 +273,48 @@ form {
 }
 .navfrontpage {
 	right: 0;
+}
+
+.vejrappnew2div {
+	float: right;
+	outline: 1px solid black;
+}
+.oldvejrapp {
+	width: 400px;
+	float: right;
+}
+.newvejrapp {
+	width: 400px;
+}
+.vejrappindhold {
+	width: 800px;
+	padding-top: 100px;
+}
+.vejrapptext {
+	position: absolute;
+	right: 75px;
+	top: 150px;
+	font-size: 1.5em;
+}
+.vejrapplogo {
+	padding-top: 3px;
+	float: right;
+	width: 255px;
+	height: auto;
+}
+#vejrapplogo {
+	width: 200px;
+	height: auto;
+}
+.oldvejrapp1:hover {
+	transform: scale(1.5);
+}
+.oldvejrapp2:hover {
+	transform: scale(1.5);
+}
+.newvejrapp1:hover {
+	transform: scale(1.5);
+}
+.newvejrapp2:hover {
+	transform: scale(1.5);
 }
