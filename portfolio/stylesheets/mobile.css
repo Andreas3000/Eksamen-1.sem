@@ -13,7 +13,7 @@ html {
 	background-color: #606060;
 }
 .bg {
-	background-image: url("../img/mobil-baggrund.png");
+  background-image: url("../img/mobil-baggrund.png");
   /* Full height */
   height: 100%; 
 
@@ -464,4 +464,73 @@ input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.aboutmebg {
+  background-image: url("../img/mobil-baggrund.png");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutmetext {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.meimg {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.me {
+	width: 350px;
+}
+.portfoliodiv {
+	width: 350px;
+}
+.newportfolioikon {
+	width: 350px;
+	padding-top: 50px;
+}
+.buildbg {
+	background-image: url("../img/mobil-baggrund.png");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+.progresssite {
+	color: #cdcdcd;
+}
+.aboutmesite {
+	color: #cdcdcd;
+}
+.contactli {
+	color: #606060;
+}
+ul {
+	list-style: none;
+}
+.aboutmeli {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.contactli {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.contactpage {
+	color: #cdcdcd;
 }

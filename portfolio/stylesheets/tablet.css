@@ -14,7 +14,6 @@ body, html {
 	height: 100%;
 	width: 100%;
 }
-
 .bg {
   /* The image used */
   background-image: url("../img/forside-baggrund.png");
@@ -112,6 +111,11 @@ li {
 	margin-left: 0;
 	margin-right: 0;
 	padding-top: 0;
+	transition-duration: 1s;
+}
+.navdivwork a:hover {
+	color: #00a3dc;;
+	transition-duration: 1s;
 }
 .semester1 {
 	position: absolute;
@@ -157,7 +161,7 @@ li {
 }
 .progressli:hover {
 	transition-duration: 1s;
-	color: #d69b01;
+	
 }
 u:hover{
 	color: #d69b01;
@@ -203,12 +207,18 @@ form {
 }
 .contactli:hover {
 	transition-duration: 1s;
-	color: #00368f
+	color: #1a46ce;
 }
 .semester1bg {
-  background-color: #606060;
-  background-image: none;
-  height: 100%;
+  background-image: url("../img/mobil-baggrund.png");
+	  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .indhold {
 	width: 850px;
@@ -219,6 +229,7 @@ form {
 	
 }
 .sweetbotdiv {
+	float: right;
 	width: 350px;
 	padding-top: 10px;
 	transition-duration: 1s;
@@ -262,6 +273,12 @@ form {
 	margin-right: 0;
 	padding-top: 0;
 	right: 0;
+	transition-duratiom: 1s;
+}
+.navdivfrontpage a:hover{
+	color: #00c000;
+	transition-duration: 1s;
+	
 }
 .contactbutton {
 	padding-right: 0;
@@ -272,7 +289,6 @@ form {
 
 .vejrappnew2div {
 	float: right;
-	outline: 1px solid black;
 }
 .oldvejrapp {
 	width: 400px;
@@ -391,9 +407,18 @@ form {
 	text-align: center;
 	width: 350px;
 }
+.olddroemtext p {
+	width: 350px;
+}
 .sweetbg {
-	height: 100%;
-	width: auto;
+  background-image: url("../img/mobil-baggrund.png");
+	  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .sweetindhold {
 	width: 850px;
@@ -468,4 +493,95 @@ form {
 }
 .vejrappbg {
 	height:578px;
+}
+.aboutmebg {
+	background-image: url("../img/aboutme-background.png");
+	width: 100%;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+.aboutmetext {
+	float: right;
+	font-size: 1.3em;
+	width: 500px;
+	height: 350px;
+}
+.aboutmeindhold {
+	width: 1000px;
+	height: auto;
+	margin-left: 20px;
+	padding-top: 100px;
+}
+.meimg {
+	float: left;
+	padding-left: 50px;
+}
+.droembg {
+  background-image: url("../img/mobil-baggrund.png");
+	  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutmeli {
+	transition-duration: 1s;
+	text-align: left;
+	border-bottom: none;
+}
+.aboutmeli:hover {
+	transition-duration: 1s;
+}
+.nameemail {
+	background-color: #B0ACAC;
+}
+textarea {
+	background-color: #B0acac;
+}
+.newportfolioikon {
+	padding-top: 0;
+	height: 189px;
+}
+.portfoliodiv {
+	padding-top: 10px;
+	transition-duration: 1s;
+}
+.portfoliodiv:hover {
+	transition-duration: 1s;
+	transform: scale(1.1);
+}
+.newportikon {
+	width: 350px;
+	height: 208px;
+}
+.newportimg2 {
+	height: 208px;
+}
+#buildtext {
+	margin-top: -25px;
+}
+.newvejrapp a:hover, .oldvejrapp a:hover, .olddroem a:hover, .newdroem a:hover, .sweetindhold a:hover {
+	color: #00a3dc;
+	transition-duration: 1s;
+}
+.newvejrapp, .oldvejrapp, .olddroem, .newdroem, .sweetindhold {
+	transition-duration: 1s;
+}
+.progressul a:hover {
+	color: #d69b01;
+}
+.aboutmeul a:hover {
+	color: #8F61C3;
+}
+.contactsite a:hover {
+	color: #1a46ce;
 }
